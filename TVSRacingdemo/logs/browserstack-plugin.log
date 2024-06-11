@@ -1,0 +1,72 @@
+14:51:30.120 [Worker-50: Launching Executing test in C__Users_satinder_eclipse-workspace_browserstack_testng-browserstack-master_tvs racing] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:51:30.204 [Worker-50: Launching Executing test in C__Users_satinder_eclipse-workspace_browserstack_testng-browserstack-master_tvs racing] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:57:14.251 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:57:14.252 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+14:57:14.257 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/TVSRacingdemo
+14:57:14.259 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:57:14.260 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+14:57:14.264 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/TVSRacingdemo
+14:57:15.665 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:57:15.666 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+14:57:15.671 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/TVSRacingdemo
+14:57:15.674 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:57:15.674 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+14:57:15.679 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/TVSRacingdemo
+14:57:42.116 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+14:57:42.160 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.2, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=xFVNqyT9Ym3JYgSnKTDY, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=satinderkaur_QzpICd, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=java:eclipse:v1.0.3]
+14:57:42.177 [Worker-52: Launching mavenrun-abb5f31b-9196-469e-84cf-fa48c815fa78] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:03:11.882 [Worker-55: Launching aboutus.feature] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.13.0\browserstack-java-sdk-1.13.0.jar
+15:03:11.888 [Worker-55: Launching aboutus.feature] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+15:03:11.894 [Worker-55: Launching aboutus.feature] INFO  c.b.BrowserStackPluginActivator - Adding the javaagent argLine with path - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:03:11.895 [Worker-55: Launching aboutus.feature] INFO  c.b.BrowserStackPluginActivator - Setting javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:03:11.981 [Worker-55: Launching aboutus.feature] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:03:12.025 [Worker-55: Launching aboutus.feature] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:03:41.575 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:03:41.576 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:03:41.581 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/tvs racing browserstack
+15:03:41.583 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:03:41.584 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:03:41.588 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/tvs racing browserstack
+15:04:03.224 [Worker-60: Launching aboutus.feature] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:04:03.228 [Worker-60: Launching aboutus.feature] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+15:04:03.233 [Worker-60: Launching aboutus.feature] INFO  c.b.BrowserStackPluginActivator - Adding the javaagent argLine with path - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:04:03.233 [Worker-60: Launching aboutus.feature] INFO  c.b.BrowserStackPluginActivator - Setting javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:04:03.235 [Worker-60: Launching aboutus.feature] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:04:23.207 [Worker-62: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:04:23.212 [Worker-62: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+15:04:23.216 [Worker-62: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Adding the javaagent argLine with path - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:04:23.216 [Worker-62: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Setting javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:04:23.218 [Worker-62: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:04:59.899 [Worker-60: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:04:59.903 [Worker-60: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+15:04:59.908 [Worker-60: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Adding the javaagent argLine with path - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:04:59.908 [Worker-60: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Setting javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:04:59.911 [Worker-60: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:06:31.427 [Worker-61: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:06:31.432 [Worker-61: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+15:06:31.436 [Worker-61: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Adding the javaagent argLine with path - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:06:31.437 [Worker-61: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Setting javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:06:31.439 [Worker-61: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:06:31.458 [Worker-61: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:06:31.465 [Worker-61: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:07:46.245 [Worker-60: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:07:46.250 [Worker-60: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+15:07:46.261 [Worker-60: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Adding the javaagent argLine with path - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:07:46.261 [Worker-60: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Setting javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:07:46.263 [Worker-60: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:07:46.283 [Worker-60: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:07:46.286 [Worker-60: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:07:46.289 [Worker-60: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:09:00.966 [Worker-55: Launching Executing test in C__Users_satinder_eclipse-workspace_TVSRacingdemo] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:31:41.602 [Worker-71: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:31:41.661 [Worker-71: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+15:31:41.665 [Worker-71: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Adding the javaagent argLine with path - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:31:41.665 [Worker-71: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - Setting javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs - C:\Users\satinder\.m2\repository\com\browserstack\browserstack-java-sdk\1.14.0\browserstack-java-sdk-1.14.0.jar
+15:31:41.667 [Worker-71: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:31:41.719 [Worker-71: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:32:32.916 [Worker-72: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:32:32.921 [Worker-72: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:33:20.740 [Worker-72: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:33:20.748 [Worker-72: Launching kidzania.feature] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:55:26.186 [main] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:56:35.715 [Framework stop - Equinox Container: befdfb26-eed6-4976-9c86-64514886ec00] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...

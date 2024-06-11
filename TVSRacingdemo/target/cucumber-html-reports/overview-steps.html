@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>cucumberReporting</td>
+        <td>1</td>
+      <td>03 Jun 2024, 11:58</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">stepDefinitions.Kidzaniapage.i_am_on_kidzania_page()</td>
+              <td>2</td>
+              <td class="duration" data-value="23165543050">23.165</td>
+              <td class="duration" data-value="23165543050">46.312</td>
+              <td class="duration" data-value="46331086100">46.331</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.Kidzaniapage.i_navigate_through_the_page()</td>
+              <td>2</td>
+              <td class="duration" data-value="1696947500">1.696</td>
+              <td class="duration" data-value="1696947500">3.393</td>
+              <td class="duration" data-value="3393895000">3.393</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.Kidzaniapage.i_will_be_able_to_use_its_functionalities()</td>
+              <td>2</td>
+              <td class="duration" data-value="457215400">0.457</td>
+              <td class="duration" data-value="457215400">0.914</td>
+              <td class="duration" data-value="914430800">0.914</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.RookieRegistration.click_on_the_get_started_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.RookieRegistration.i_am_able_to_navigate_to_payment_gateway_and_complete_the_registration_process()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.RookieRegistration.i_am_on_the_tvs_racing_contact_us_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="13992000">0.013</td>
+              <td class="duration" data-value="13992000">0.013</td>
+              <td class="duration" data-value="13992000">0.013</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.RookieRegistration.i_fill_up_the_entire_form()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.TVSRegistration.click_on_get_started_button()</td>
+              <td>2</td>
+              <td class="duration" data-value="12683848750">12.683</td>
+              <td class="duration" data-value="12683848750">25.367</td>
+              <td class="duration" data-value="25367697500">25.367</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.TVSRegistration.comes_back_on_the_home_page()</td>
+              <td>2</td>
+              <td class="duration" data-value="10171721150">10.171</td>
+              <td class="duration" data-value="10171721150">20.343</td>
+              <td class="duration" data-value="20343442300">20.343</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.TVSRegistration.u_ser_should_navigate_to_the_payment_page_and_able_to_complete_the_registration_for_the_specific_program()</td>
+              <td>2</td>
+              <td class="duration" data-value="2831168650">2.831</td>
+              <td class="duration" data-value="2831168650">5.662</td>
+              <td class="duration" data-value="5662337300">5.662</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.TVSRegistration.user_fills_up_the_form()</td>
+              <td>2</td>
+              <td class="duration" data-value="4779513850">4.779</td>
+              <td class="duration" data-value="4779513850">9.559</td>
+              <td class="duration" data-value="9559027700">9.559</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.TVSRegistration.user_is_on_the_contact_us_page()</td>
+              <td>2</td>
+              <td class="duration" data-value="16175706550">16.175</td>
+              <td class="duration" data-value="16175706550">32.148</td>
+              <td class="duration" data-value="32351413100">32.351</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.aboutus.all_the_functionalities_should_be_working_fine()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.aboutus.i_am_on_the_about_us_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="15989000">0.015</td>
+              <td class="duration" data-value="15989000">0.015</td>
+              <td class="duration" data-value="15989000">0.015</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.aboutus.i_navigate_through_the_page_of_about_use_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.dakarrallypage.i_am_on_the_dakar_rally_race_format_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="14989200">0.014</td>
+              <td class="duration" data-value="14989200">0.014</td>
+              <td class="duration" data-value="14989200">0.014</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.dakarrallypage.i_scroll_down_and_navigate_through_the_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.dakarrallypage.i_should_be_able_to_use_it()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.homepagefunctions.i_am_on_the_tvs_racing_site()</td>
+              <td>2</td>
+              <td class="duration" data-value="12845927200">12.845</td>
+              <td class="duration" data-value="12845927200">25.677</td>
+              <td class="duration" data-value="25691854400">25.691</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.homepagefunctions.i_scroll_down_and_check_the_functionalities()</td>
+              <td>2</td>
+              <td class="duration" data-value="1419463200">1.419</td>
+              <td class="duration" data-value="1419463200">2.838</td>
+              <td class="duration" data-value="2838926400">2.838</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.homepagefunctions.user_clicks_on_the_upcoming_races_dropdown()</td>
+              <td>2</td>
+              <td class="duration" data-value="324797500">0.324</td>
+              <td class="duration" data-value="324797500">0.649</td>
+              <td class="duration" data-value="649595000">0.649</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.homepagefunctions.user_should_be_able_to_navigate_through_it_seamlessly()</td>
+              <td>2</td>
+              <td class="duration" data-value="304311300">0.304</td>
+              <td class="duration" data-value="304311300">0.603</td>
+              <td class="duration" data-value="608622600">0.608</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.raceformat.i_am_on_the_supercross_championship_page()</td>
+              <td>2</td>
+              <td class="duration" data-value="22900708600">22.900</td>
+              <td class="duration" data-value="22900708600">45.777</td>
+              <td class="duration" data-value="45801417200">45.801</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.raceformat.i_scroll_down_and_use_the_carousel_and_teams_functionalities()</td>
+              <td>2</td>
+              <td class="duration" data-value="5967298700">5.967</td>
+              <td class="duration" data-value="5967298700">11.934</td>
+              <td class="duration" data-value="11934597400">11.934</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.raceformat.user_should_be_able_to_navigate_through_it_seamlessly_and_able_to_scroll_down_further()</td>
+              <td>2</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="duration" data-value="2000000">0.002</td>
+              <td class="failed">50.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>25</td>
+            <td>40</td>
+            <td class="duration">5.787</td>
+            <td class="duration">46.331</td>
+            <td class="duration">3:51.495</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
